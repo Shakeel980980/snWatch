@@ -32,6 +32,7 @@ const Home = ({ searchResults, searchQuery }) => {
   return (
     <div>
       <Headings />
+
       <div className="home">
         {searchQuery && (
           <div className="search-results-container">

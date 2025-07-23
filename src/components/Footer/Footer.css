@@ -1,4 +1,5 @@
 /* Footer Container */
+@import "../../../src/App.css"; /* Import base.css into main.css */
 .footer-container {
   background-color: #212121;
   color: white;
@@ -25,12 +26,12 @@
 }
 
 .social-icon {
-  color: #faf4f4;
+  color: var(--main-white) !important;
   transition: color 0.3s ease;
 }
 
 .social-icon:hover {
-  color: #ffa000;
+  color: #ffa000 !important;
 }
 
 /* Links Container */

@@ -11,6 +11,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import Cart from "./AddToCart/Cart.jsx";
 import { useCart } from "./AddToCart/CartContext.jsx";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 //use state
 import { useState } from "react";
@@ -61,6 +62,9 @@ export default function Navbar({ onSearch, searchQuery }) {
           </li>
           <li className="different">
             <Link to="/Shop">Shop</Link>
+          </li>
+          <li className="different">
+            <Link to="/Contact">Contact</Link>
           </li>
         </ul>
 
@@ -113,6 +117,15 @@ export default function Navbar({ onSearch, searchQuery }) {
           )}
           {/* <HorizontalSplitTwoToneIcon fontSize="large" /> */}
         </div>
+      </div>
+      <div className="whatsappIcon">
+        <a
+          href="https://api.whatsapp.com/send?phone=03094530527&text=Hello!%20I%20need%20help."
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <WhatsAppIcon style={{ fontSize: 40 }} className="whatsapp-icon" />
+        </a>
       </div>
     </div>
   );

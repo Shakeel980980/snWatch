@@ -10,6 +10,7 @@ import Cart from "/src/components/AddToCart/Cart.jsx";
 import { CartProvider } from "/src/components/AddToCart/CartContext.jsx";
 import { Error } from "/src/components/Error.jsx";
 import Footer from "/src/components/Footer/Footer.jsx";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   // search
@@ -53,6 +54,7 @@ function App() {
           />
           <Route path="/Cart" element={<Cart />} />
           <Route path="*" element={<Error />} />
+          <Route path="/Contact" element={<Contact />} />
         </Routes>
         {/* Footer */}
         <Footer />

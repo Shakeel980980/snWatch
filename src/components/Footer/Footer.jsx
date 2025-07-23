@@ -1,11 +1,11 @@
 import "./Footer.css";
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   Box,
   Container,
   Grid,
   Typography,
-  Link,
   Divider,
   IconButton,
   TextField,
@@ -21,13 +21,12 @@ import {
   Email,
   Schedule,
 } from "@mui/icons-material";
-import "./Footer.css"; // Import the external CSS file
 
 const Footer = () => {
   return (
     <Box component="footer" className="footer-container">
       <Container maxWidth="lg">
-        <Grid container spacing={4}>
+        <Grid container spacing={8}>
           {/* About SNWatch */}
           <Grid>
             <Typography variant="h6" gutterBottom className="footer-heading">
@@ -59,16 +58,16 @@ const Footer = () => {
               Quick Links
             </Typography>
             <Box className="footer-links-container">
-              <Link href="Home.jsx" className="footer-link">
+              <Link to="/" className="footer-link">
                 Home
               </Link>
-              <Link href="Shop.jsx" className="footer-link">
+              <Link to="/Shop" className="footer-link">
                 Shop
               </Link>
-              <Link href="AboutUs.jsx" className="footer-link">
+              <Link to="/AboutUs" className="footer-link">
                 About Us
               </Link>
-              <Link href="#" className="footer-link">
+              <Link to="/Contact" className="footer-link">
                 Contact
               </Link>
             </Box>
@@ -110,13 +109,13 @@ const Footer = () => {
               <Box className="contact-item">
                 <LocationOn className="contact-icon" />
                 <Typography variant="body2" className="footer-text">
-                  123 Watch Street, Time Square, NY 10036
+                  123 Watch Burewala, Time 8 am to 9 pm
                 </Typography>
               </Box>
               <Box className="contact-item">
                 <Phone className="contact-icon" />
                 <Typography variant="body2" className="footer-text">
-                  +1 (555) 123-4567
+                  +92 309-4530527
                 </Typography>
               </Box>
               <Box className="contact-item">
@@ -174,9 +173,6 @@ const Footer = () => {
             </Link>
             <Link href="#" className="policy-link">
               Terms of Service
-            </Link>
-            <Link href="#" className="policy-link">
-              Sitemap
             </Link>
           </Box>
         </Box>
