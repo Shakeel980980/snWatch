@@ -1,0 +1,80 @@
+@import "../../../src/App.css"; /* Import base.css into main.css */
+.cart-dropdown {
+  width: 80%;
+  padding: 1rem 3rem;
+  margin: 0 auto;
+  background-color: white;
+  margin-top: 1rem;
+}
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+.cart-item img {
+  width: 100px; /* Adjusted for better visibility */
+  height: auto;
+}
+
+.cart-item span {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.item-details {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.quantity-controls button {
+  width: 40px;
+  height: 25px;
+  background: var(--main-red);
+  color: var(--main-white);
+  font-size: 16px;
+  margin: 18px 0px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.remove-btn {
+  background: none;
+  border: none;
+  color: var(--main-red);
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 0;
+  align-self: flex-end;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.checkout-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}

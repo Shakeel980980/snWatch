@@ -1,0 +1,22 @@
+#root {
+  max-width: 100vw;
+  overflow: hidden;
+
+  /* text-align: center; */
+}
+:root {
+  --main-white: #ffffff;
+  --main-red: #be3144;
+  --main-blue: #45567d;
+  --main-gray: #303841;
+  --main-black: black;
+  --main-purple: #cb6be6;
+}
+.OtherTheme {
+  --main-white: #123458;
+  --main-red: #0898eb;
+  --main-blue: #45567d;
+  --main-gray: #030303;
+  --main-black: rgb(255, 255, 255);
+  --main-purple: #ffffff;
+}

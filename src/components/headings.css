@@ -1,0 +1,21 @@
+@import "../../src/App.css"; /* Import base.css into main.css */
+.Headings {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  object-fit: contain;
+  padding: 1rem;
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--main-red);
+}
+.SearchResultStatus {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  object-fit: contain;
+  padding: 1rem;
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--main-red);
+}
