@@ -101,8 +101,12 @@ export default function Navbar({ onSearch, searchQuery }) {
             Display ? "bnts-signIn-signUp active" : "bnts-signIn-signUp"
           }
         >
-          <button>Sign Up</button>
-          <button>Sign In</button>
+          <Link to="/SignUp">
+            <button>Sign Up</button>
+          </Link>
+          <Link to="/SignIn">
+            <button>Sign In</button>
+          </Link>
         </div>
 
         <div className="toggle-bar" onClick={toggle}>

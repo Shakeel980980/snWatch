@@ -11,6 +11,8 @@ import { CartProvider } from "/src/components/AddToCart/CartContext.jsx";
 import { Error } from "/src/components/Error.jsx";
 import Footer from "/src/components/Footer/Footer.jsx";
 import Contact from "./components/Contact/Contact";
+import { SignUp } from "/src/components/SignUp/SignUp.jsx";
+import { SignIn } from "/src/components/SignIn/SignIn.jsx";
 
 function App() {
   // search
@@ -55,6 +57,8 @@ function App() {
           <Route path="/Cart" element={<Cart />} />
           <Route path="*" element={<Error />} />
           <Route path="/Contact" element={<Contact />} />
+          <Route path="/SignUp" element={<SignUp />} />
+          <Route path="/SignIn" element={<SignIn />} />
         </Routes>
         {/* Footer */}
         <Footer />
