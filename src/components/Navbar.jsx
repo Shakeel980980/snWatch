@@ -51,7 +51,8 @@ export default function Navbar({ onSearch, searchQuery }) {
     <div className="nav">
       <div className="navbar">
         <Link to="/">
-          <img src="src\assets\images\logo-transpatent.png" alt="" />
+          {/* <img src="src\assets\images\logo-transpatent.png" alt="" /> */}
+          <img src="/images/logo-transpatent.png" alt="" />
         </Link>
         <ul className={Display ? "ul active" : "ul"}>
           <li className="different">
