@@ -25,7 +25,7 @@ export default function AboutUs() {
               <div className="founder-image">
                 {/* Replace with actual image path */}
                 <img
-                  src="src/assets/images/developer.jpeg"
+                  src="/images/developer.jpeg"
                   alt="Shakeel Ahmad, Founder of SN-Watch"
                 />
               </div>

@@ -61,7 +61,7 @@ export const AllData = [
   },
   {
     id: 7,
-    img: "public/images/7.png",
+    img: "/images/7.png",
     name: "MTP-V004L-7CUDF Casio Silver Dial Brown Leather Strap Analog Quartz Men's Watch.",
     rating: "****",
     oldPrice: "12780",
