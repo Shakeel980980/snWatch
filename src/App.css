@@ -5,6 +5,23 @@
   /* text-align: center; */
 }
 :root {
+  --main-white: #b7f08b;
+  --main-red: #94bf73;
+  --main-blue: #526a40;
+  --main-gray: #526a40;
+  --main-black: #314026;
+  --main-purple: #11150d;
+}
+.OtherTheme {
+  --main-white: #bdb4fd;
+  --main-red: #5948c6;
+  --main-blue: #46399c;
+  --main-gray: #332971;
+  --main-black: #201a47;
+  --main-purple: #0d0a1c;
+}
+
+/* :root {
   --main-white: #ffffff;
   --main-red: #be3144;
   --main-blue: #45567d;
@@ -19,4 +36,4 @@
   --main-gray: #030303;
   --main-black: rgb(255, 255, 255);
   --main-purple: #ffffff;
-}
+} */

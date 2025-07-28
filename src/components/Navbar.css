@@ -4,8 +4,8 @@
   min-height: 100%;
   overflow: hidden;
   background-color: var(--main-white);
-  border-bottom: 2px solid var(--main-purple);
-  box-shadow: 2px 3px 10px var(--main-gray);
+  /* border-bottom: 2px solid var(--main-purple); */
+  /* box-shadow: 2px 3px 10px var(--main-gray); */
 }
 .nav .navbar {
   display: flex;
@@ -112,8 +112,8 @@ ul li a {
   font-weight: bold;
 }
 .bnts-signIn-signUp button {
-  background-color: var(--main-purple);
-  color: var(--main-gray);
+  background-color: var(--main-black);
+  color: var(--main-white);
   outline: none;
   border: none;
   margin: 0px 10px;
@@ -122,7 +122,7 @@ ul li a {
 .bnts-signIn-signUp button:hover {
   background-color: var(--main-gray);
   color: var(--main-white);
-  transition: all ease-in-out 0.6s;
+  transition: all 0.3s ease-in-out;
 }
 #themeIcon {
   color: var(--main-purple);
