@@ -1,7 +1,7 @@
 export const AllData = [
   {
     id: 1,
-    img: "/public/images/1.png",
+    img: "/images/1.png",
     name: "Stainless Steel Casual Watch for Man SMART Quartz Watches for Boys & Men New Fashion Wrist watch",
     rating: "****",
     oldPrice: "800",
@@ -11,7 +11,7 @@ export const AllData = [
   },
   {
     id: 2,
-    img: "/public/images/2.png",
+    img: "/images/2.png",
     name: "M:8456 Curren Black Dial Silver Stainless Steel Chain Analog Quartz Men's Watch.",
     rating: "****",
     oldPrice: "5500",
@@ -21,7 +21,7 @@ export const AllData = [
   },
   {
     id: 3,
-    img: "/public/images/3.png",
+    img: "/images/3.png",
     name: "M:8450 Curren Blue Dial silver Stainless Steel Chain Quartz Analog Men's Watch.",
     rating: "****",
     oldPrice: "6000",
@@ -31,7 +31,7 @@ export const AllData = [
   },
   {
     id: 4,
-    img: "/public/images/4.png",
+    img: "/images/4.png",
     name: "M:8450 Curren green Dial silver Stainless Steel Chain Quartz Analog Men's Watch.",
     rating: "****",
     oldPrice: "5500",
@@ -41,7 +41,7 @@ export const AllData = [
   },
   {
     id: 5,
-    img: "/public/images/5.png",
+    img: "/images/5.png",
     name: "M:8457 curren Blue Dial Silver Stainless Steel Chain Analog Quartz Men's Watch.",
     rating: "****",
     oldPrice: "5500",
@@ -51,7 +51,7 @@ export const AllData = [
   },
   {
     id: 6,
-    img: "/public/images/6.png",
+    img: "/images/6.png",
     name: "M:8363 Curren black Dial Silver Stainless Steel Chronograph Analog Quartz Men's Watch.",
     rating: "****",
     oldPrice: "8000",
@@ -71,7 +71,7 @@ export const AllData = [
   },
   {
     id: 8,
-    img: "/public/images/8.png",
+    img: "/images/8.png",
     name: "M:8459 Curren BLACK/GOLD Color Dial Fashion Quartz Clock Analog Chronograph Men's Watch.",
     rating: "****",
     oldPrice: "9750",
@@ -81,7 +81,7 @@ export const AllData = [
   },
   {
     id: 9,
-    img: "/public/images/9.png",
+    img: "/images/9.png",
     name: " M:8458 curren TIFNY Dial SILVER Stainless Steel Chain Analog Quartz Men's Watch.",
     rating: "****",
     oldPrice: "5500",
@@ -91,7 +91,7 @@ export const AllData = [
   },
   {
     id: 10,
-    img: "/public/images/10.png",
+    img: "/images/10.png",
     name: "M:8457 curren Black Dial Silver Stainless Steel Chain Analog Quartz Men's Watch.",
     rating: "****",
     oldPrice: "5600",
@@ -101,7 +101,7 @@ export const AllData = [
   },
   {
     id: 11,
-    img: "/public/images/11.png",
+    img: "/images/11.png",
     name: "MTP-1381L-7AVDF Casio Analog Quartz Watch For Men's.",
     rating: "****",
     oldPrice: "19000",
